@@ -1,0 +1,35 @@
+/* Chemistry specific navigation color */
+.chemistry-nav {
+    background-color: #008080; /* Teal color */
+}
+
+/* Chemistry Header */
+.chem-header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 3px solid #008080;
+}
+
+.chem-header h1 {
+    color: #008080;
+}
+
+/* Chapter Heading Color */
+.chem-text {
+    color: #006666; /* Dark Teal */
+}
+
+/* Re-using the same box styles from your Math page for consistency */
+.chapter-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.chapter-item:hover {
+    border-color: #008080;
+    background-color: #f0fdfa; /* Very light teal on hover */
+}
